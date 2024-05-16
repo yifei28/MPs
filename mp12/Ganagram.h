@@ -13,12 +13,11 @@
 /***
 An AnagramDict Class
 
-This class utilizes a binary tree to 
-create a dictionary of anagrams. Where each tree node contains
-a key that is a sorted string and a list to represent all the anagrams
-that fall under that sorted string.
+This class utilizes a binary tree to create a dictionary of anagrams. Where each tree node contains
+a key that is a sorted string and a list to represent all the anagrams that fall under that sorted string.
 
 ***/
+
 class GAnagramDict {
     public:
         GAnagramDict(std::string filename);
